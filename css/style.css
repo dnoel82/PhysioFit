@@ -7,9 +7,9 @@
 
 /* --- CSS Variables --- */
 :root {
-  --primary:      #1A4C8B;
-  --primary-dark: #133872;
-  --primary-light:#E8F1FA;
+  --primary:      #2B6A79;
+  --primary-dark: #1F5260;
+  --primary-light:#E6F3F6;
   --accent:       #3A8C5C;
   --accent-dark:  #2D6E47;
   --accent-light: #E6F4EC;
@@ -113,7 +113,7 @@ img { max-width: 100%; height: auto; }
   border-color: var(--primary-dark);
   color: var(--white);
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(26,76,139,0.35);
+  box-shadow: 0 6px 18px rgba(43,106,121,0.35);
 }
 
 .btn-brand-outline {
@@ -240,7 +240,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2826, 76, 139, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2843, 106, 121, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 /* =============================================
@@ -356,7 +356,7 @@ img { max-width: 100%; height: auto; }
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(26,76,139,0.85) 0%, rgba(26,26,26,0.75) 100%);
+  background: linear-gradient(135deg, rgba(43,106,121,0.85) 0%, rgba(26,26,26,0.75) 100%);
 }
 
 .page-hero-content {
