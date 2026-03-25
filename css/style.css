@@ -762,10 +762,12 @@ img { max-width: 100%; height: auto; }
 }
 
 .footer-brand img {
-  height: 70px;
+  height: 80px;
   width: auto;
   margin-bottom: 20px;
-  filter: brightness(0) invert(1);
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
 }
 
 .footer-desc {
